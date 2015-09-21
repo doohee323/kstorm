@@ -6,7 +6,7 @@ Getting the pom set up right so that the incompatible logging libraries between 
 
 The topologies are a basic wordcount topology, based on Chapter 1 of P. Taylor Goetz's [Storm Blueprints](https://www.packtpub.com/big-data-and-business-intelligence/storm-blueprints-patterns-distributed-real-time-computation) book.
 
-There are two versions:
+There are two versions: 
 
 * one that uses a in-memory `SentenceSpout` (taken from the Storm Blueprints example)
 * one that uses a Kafka `sentence` Topic as the source of sentences
